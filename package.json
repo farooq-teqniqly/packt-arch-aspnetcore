@@ -13,6 +13,9 @@
     "./src/ch16-mediator/*.sln": [
       "dotnet test",
       "dotnet format -v d"
+    ],
+    "./src/ch16-cqs/*.sln": [
+      "dotnet format -v d"
     ]
   }
 }
