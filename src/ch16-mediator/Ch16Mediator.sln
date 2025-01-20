@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorLib", "MediatorLib\MediatorLib.csproj", "{841FC791-15F1-4B61-8D1C-D19480C77F1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorLib.Tests", "MediatorLib.Tests\MediatorLib.Tests.csproj", "{68829614-EB0D-4092-BBFC-BB4C8F000705}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{184E3C06-4643-432A-B1D1-ECCE8D6019A0}"
+	ProjectSection(SolutionItems) = preProject
+		..\.editorconfig = ..\.editorconfig
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{841FC791-15F1-4B61-8D1C-D19480C77F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841FC791-15F1-4B61-8D1C-D19480C77F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841FC791-15F1-4B61-8D1C-D19480C77F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841FC791-15F1-4B61-8D1C-D19480C77F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68829614-EB0D-4092-BBFC-BB4C8F000705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68829614-EB0D-4092-BBFC-BB4C8F000705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68829614-EB0D-4092-BBFC-BB4C8F000705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68829614-EB0D-4092-BBFC-BB4C8F000705}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9D1A9CC-0835-41D7-BAA7-1B718F6E3908}
+	EndGlobalSection
+EndGlobal
