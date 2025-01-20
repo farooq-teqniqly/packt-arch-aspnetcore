@@ -7,12 +7,10 @@
     "lint-staged": "^15.2.11"
   },
   "scripts": {
-    "prepare": "husky install",
-    "test": "dotnet test ./src/ch16-mediator/Ch16Mediator.sln",
-    "format": "dotnet format -v d ./src/ch16-mediator/Ch16Mediator.sln"
+    "prepare": "husky install"
   },
   "lint-staged": {
-    "./src/ch16-mediator/*.{sln}": [
+    "./src/ch16-mediator/*.sln": [
       "dotnet test",
       "dotnet format -v d"
     ]
