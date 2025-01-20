@@ -10,5 +10,11 @@
     "prepare": "husky install",
     "test": "dotnet test ./src/ch16-mediator/Ch16Mediator.sln",
     "format": "dotnet format -v d ./src/ch16-mediator/Ch16Mediator.sln"
+  },
+  "lint-staged": {
+    "./src/ch16-mediator/*.{cs,csproj,sln,json,md}": [
+      "dotnet test ./src/ch16-mediator/Ch16Mediator.sln",
+      "dotnet format -v d ./src/ch16-mediator/Ch16Mediator.sln"
+    ]
   }
 }
